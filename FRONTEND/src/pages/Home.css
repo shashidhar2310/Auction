@@ -1,0 +1,32 @@
+.carousel-img {
+    height: 500px;
+    object-fit: cover;
+  }
+  
+  .card-img {
+    height: 200px;
+    object-fit: cover;
+  }
+  
+  /* Feature Card */
+  .feature-card {
+    height: 100%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Footer */
+  footer {
+    margin-top: 50px;
+  }
+  
+  /* Responsive Adjustments */
+  @media (max-width: 768px) {
+    .carousel-img {
+      height: 300px;
+    }
+  
+    .card-img {
+      height: 150px;
+    }
+  }
+  
